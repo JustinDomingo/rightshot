@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.begin {
+    position: relative;
+    height: 60px;
+    width: 180px;
+    background-color: #30c0c5c0;
+    border: 0;
+    color: white;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 5px;
+    bottom: 25px;
+  }
+  
+  .begin:hover {
+    box-shadow: 2.5px 2.5px 1.25px rgb(158, 158, 158);
+  }
+
+  .begin:active {
+    background-color: #c5303075;
+  }
+
+  .try {
+    position: relative;
+    bottom: 325px;
+    height: 60px;
+    width: 180px;
+    background-color: #30c0c5c0;
+    border: 0;
+    color: white;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 5px;
+  }
+  
+  .try:hover {
+    box-shadow: 2.5px 2.5px 1.25px rgb(158, 158, 158);
+  }
+
+  .try:active {
+    background-color: #c5303075;
+  }
+
+.title-font {
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(61, 61, 61)
+}
+
+.desc {
+    font-family: 'Helvetica';
+    width: 300px;
+    color: rgb(61, 61, 61);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.container {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    border: 1px solid #eee;
+    background-color: #f1f1f1;
+    width: 450px;
+    height: 490px;
+    border-radius: 8px;
+    overflow-y: auto;
+}
+
+.game-container {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    border: 2px solid rgb(61, 61, 61);
+    background-color: #f1f1f1;
+    width: 700px;
+    height: 700px;
+    border-radius: 20px;
+    overflow-y: auto;
+}
+
+.modal-container {
+  position: relative;
+  opacity: 0.7;
+  top: 2.5px;
+  left: 2.5px;
+  display: inline-block;
+  background-color: #f1f1f1;
+  width: 650px;
+  height: 630px;
+  border-radius: 20px;
+  overflow-y: auto;
+}
+
+.demo-button {
+    border-radius: 120px / 120px ;
+    height: 120px;
+    width: 120px;
+    background-color: #00FFFF;
+    border-color: #00FFFF;
+    outline:none;
+  }
+  
+  .target-button {
+    border-radius: 120px / 120px ;
+    height: 120px;
+    width: 120px;
+    background-color: #FF3C3C;
+    border-color: #FF3C3C;
+    outline:none;
+  }
+
+.buttons {
+    box-shadow: 2.5px 2.5px 1.25px rgb(158, 158, 158);
+}
+
+.score {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    bottom: 60px;
+}
+
+.accurate {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  left: 625px;
+}
+
+.invisible {
+  opacity: 0;
+  pointer-events: none
+}
